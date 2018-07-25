@@ -1,2 +1,11 @@
-Git is a version control system
-Git is free software
+## 关于图像处理的神经网络和python语言的基本知识点
+
+#### U-net
+- U-net是用于医学影像分割很成熟的FCN网络
+
+
+#### 人脸识别
+- 使用了opencv 和 opencv官方github的参数集，对指定图片进行人脸识别
+- 测试结果：对于真人脸部的识别比较准确，基本都能找到脸部的位置；但对于动漫、CG中人物的脸部识别完全失败。应用很局限。官方的参数集较弱
+
+#### 
