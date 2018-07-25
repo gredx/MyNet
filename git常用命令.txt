@@ -1,0 +1,38 @@
+git config --global user.name "your name"
+git config --global user.email "email@example.com"
+设置本地git的名字和邮箱，标识身份
+
+ssh-keygen -t rsa -C "youremail@example.com"
+新建本地的ssh公钥和私钥
+git init
+git初始化一个文件夹
+git add <file>
+向暂存区添加一个文件
+git commit -m "message"
+提交暂存区的文件
+git status
+
+git checkout -- <file>
+从暂存区回退制定文件到工作态
+git reset
+从已提交回退到暂存区
+git reset --soft
+git reset --mixed
+git reset --hard
+
+git log
+查看git工作日志
+git branch branchname
+新建分支
+git checkout branchname
+切换分支
+git merge branchname2
+把 branchname2合并到当前分支
+
+git checkout -b branchname2
+创建并切换到branchname2分支中
+
+git branch -d branchname
+删除分支
+
+git@github.com:gredx/MyNet
